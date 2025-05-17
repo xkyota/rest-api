@@ -1,0 +1,56 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-image: radial-gradient(#ccc 0.5px, transparent 0.5px);
+  background-size: 20px 20px;
+}
+
+.country-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.country-card h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.country-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.country-text {
+  flex: 1;
+  font-size: 18px;
+  max-width: 50%;
+}
+
+.country-text .label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.country-text ul {
+  padding-left: 20px;
+  margin-top: 0.5rem;
+}
+
+.country-text ul li {
+  list-style: disc;
+  margin-bottom: 5px;
+}
+
+.country-content img {
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+  margin-left: 40px;
+}
