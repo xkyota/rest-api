@@ -3,15 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <title>Countries</title>
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <style>
+      .userInput {
+        display: block;
+        margin: 40px auto 30px auto;
+        padding: 14px 24px;
+        width: 350px;
+        font-size: 20px;
+        border: 2px solid #4f8cff;
+        border-radius: 30px;
+        outline: none;
+        background: #f7faff;
+        box-shadow: 0 4px 18px rgba(79, 140, 255, 0.08);
+        transition: border-color 0.2s, box-shadow 0.2s;
+      }
 
-    <input class="userInput" type="text" placeholder="Enter name of country">
+      .userInput:focus {
+        border-color: #1a73e8;
+        box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.15);
+      }
+    </style>
 
-    <ul class="countries-cards"></ul>
+    <input class="userInput" type="text" placeholder="Enter name of country" />
+
+    <div class="countries-cards"></div>
 
     <script type="module" src="./index.js"></script>
   </body>
